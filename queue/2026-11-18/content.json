@@ -1,0 +1,36 @@
+{
+  "reel1": {
+    "frames": [
+      { "s": "UTCT IS ON SATURDAY", "b": "Carb loading", "h": "starts now", "u": "The last 2 to 3 days before race day." },
+      { "s": "NOT A FEAST", "b": "Eat normally.", "h": "Add carbs.", "u": "Rice, pasta, bread, potatoes. Same meals, bigger carb side." },
+      { "s": "KEEP IT BORING", "b": "Nothing new", "h": "this week", "u": "Foods you know. Your gut has a big Saturday." },
+      { "s": "THE NIGHT BEFORE", "b": "Early dinner.", "h": "Simple plate.", "u": "The start is at 04:00. Eat early, sleep early." },
+      { "s": "SAVE THIS POST", "b": "Comment UTCT", "h": "for the plan", "u": "Comment UTCT and I'll send you the plan." }
+    ],
+    "caption": "Carb loading for UTCT doesn't mean one giant pasta dinner on Friday.\nEat normally and add carbs over the last 2 to 3 days. Nothing new, nothing fancy. Save this post, and comment UTCT and I'll send you the plan.\n\n#UTCT #trailrunningsa #ultrarunning #racenutrition #PaceShark"
+  },
+  "reel2": {
+    "frames": [
+      { "s": "CAPE TOWN IN NOVEMBER", "b": "Hot valleys.", "h": "Cold summits.", "u": "Warm afternoons, single digits up top." },
+      { "s": "THE WIND DRIES YOU OUT", "b": "Drink more", "h": "than at home", "u": "Wind and sun take more out of you than you feel." },
+      { "s": "SIMPLE RULE", "b": "Drink to", "h": "thirst", "u": "Don't wait until you're parched. Don't force it either." },
+      { "s": "SALT", "b": "Electrolytes", "h": "you've tested", "u": "Only what you've used in training." },
+      { "s": "IT'S A CUPLESS RACE", "b": "Pack your", "h": "own cup", "u": "It's on the compulsory kit list." },
+      { "s": "SAVE THIS POST", "b": "Tag a runner", "h": "before UTCT", "u": "Tag the runner who needs this before UTCT." }
+    ],
+    "caption": "Table Mountain wind dries you out before you notice you're thirsty.\nDrink to thirst, use only the electrolytes you've trained with, and don't forget your cup. Save this post and tag the runner who needs this before UTCT.\n\n#UTCT #trailrunningsa #ultrarunning #hydration #PaceShark"
+  },
+  "carousel": {
+    "slides": [
+      { "kind": "cover", "small": "UTCT RACE WEEK", "big": "6 fuelling mistakes", "hl": "to avoid", "sub": "Three days to go. Don't undo months of training at the kitchen table." },
+      { "n": 1, "tag": "Race week", "title": "Trying new food", "head": "Race week is not the time to experiment.", "body": "Stick to the meals, gels and drinks you know. A new sports drink at the expo can wait until next week." },
+      { "n": 2, "tag": "Carbs", "title": "One huge dinner", "head": "Spread the carbs over 2 to 3 days.", "body": "Eat normally and add carbs to each meal. One giant plate on Friday night just leaves you heavy at the 04:00 start." },
+      { "n": 3, "tag": "Breakfast", "title": "A new breakfast", "head": "Eat what you ate before your long runs.", "body": "Early, simple and tested. Race morning is not the day to find out how a new muesli sits." },
+      { "n": 4, "tag": "On the course", "title": "Waiting to be hungry", "head": "Eat on a schedule, not on a feeling.", "body": "Start within the first 30 to 45 minutes and keep going. By the time you feel empty, you're already behind." },
+      { "n": 5, "tag": "Carbs per hour", "title": "Copying the pros", "head": "60 to 90g an hour only if your gut is trained.", "body": "Many ultra runners aim for that range. If you haven't practised it, go with what worked in training." },
+      { "n": 6, "tag": "Water", "title": "Skipping refills", "head": "Fill up fully at every aid station.", "body": "Wind and warm afternoons dry you out. Leave every aid station with full bottles, and bring your own cup." },
+      { "kind": "cta", "small": "SAVE THIS POST", "big": "Your race plan", "hl": "link in bio", "sub": "Running UTCT? Your course plan: link in bio." }
+    ],
+    "caption": "Three days out from UTCT, most damage happens in the kitchen, not on the mountain.\nSix race-week fuelling mistakes to avoid. Save this post. Running UTCT? Your course plan: link in bio.\n\n#UTCT #trailrunningsa #ultrarunning #racenutrition #PaceShark"
+  }
+}
