@@ -1,0 +1,41 @@
+{
+  "posts": [
+    {
+      "slot": 1,
+      "time": "06:30",
+      "type": "reel",
+      "mode": "manual",
+      "files": [
+        "post1.mp4"
+      ],
+      "caption": "post1.txt"
+    },
+    {
+      "slot": 2,
+      "time": "12:30",
+      "type": "reel",
+      "mode": "manual",
+      "files": [
+        "post2.mp4"
+      ],
+      "caption": "post2.txt"
+    },
+    {
+      "slot": 3,
+      "time": "18:30",
+      "type": "carousel",
+      "mode": "auto",
+      "files": [
+        "post3-01.png",
+        "post3-02.png",
+        "post3-03.png",
+        "post3-04.png",
+        "post3-05.png",
+        "post3-06.png",
+        "post3-07.png",
+        "post3-08.png"
+      ],
+      "caption": "post3.txt"
+    }
+  ]
+}
