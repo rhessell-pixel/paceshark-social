@@ -1,0 +1,62 @@
+# Adds the faded Pexels photos (18 Nov 2026). The daily posts task pushes queue/<day>/content.json (with "photo"
+# search words) plus its own build; this rebuilds that day here, where Pexels can be reached, with the photos behind
+# the first reel frame and the carousel cover, and commits the new media. Needs the repo secret PEXELS_API_KEY;
+# without it nothing happens and the posts stay as the task built them. "Run workflow" by hand rebuilds one day.
+name: Add photos to posts
+on:
+  push:
+    paths: ["queue/**/content.json"]
+  workflow_dispatch:
+    inputs:
+      day:
+        description: "Day to rebuild (YYYY-MM-DD)"
+        required: true
+permissions:
+  contents: write
+concurrency:
+  group: build-posts
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: Which days
+        id: days
+        run: |
+          if [ -z "$PEXELS_API_KEY" ]; then echo "PEXELS_API_KEY isn't set: nothing to do."; echo "list=" >> "$GITHUB_OUTPUT"; exit 0; fi
+          if [ -n "${{ github.event.inputs.day }}" ]; then list="queue/${{ github.event.inputs.day }}/content.json"
+          else list=$(git diff --name-only HEAD~1 HEAD -- 'queue/*/content.json' | tr '\n' ' '); fi
+          echo "list=$list" >> "$GITHUB_OUTPUT"; echo "Days: $list"
+      - uses: actions/setup-node@v4
+        if: steps.days.outputs.list != ''
+        with:
+          node-version: 20
+      - name: Install Playwright and ffmpeg
+        if: steps.days.outputs.list != ''
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-liberation >/dev/null
+          npm install --no-save playwright@1.48.2 >/dev/null
+          npx playwright install --with-deps chromium >/dev/null
+      - name: Rebuild with photos
+        if: steps.days.outputs.list != ''
+        run: |
+          for f in ${{ steps.days.outputs.list }}; do
+            [ -f "$f" ] || continue
+            grep -q '"photo"' "$f" || { echo "$f has no photo words, skipped"; continue; }
+            node tools/build.js "$f"
+          done
+      - name: Commit
+        if: steps.days.outputs.list != ''
+        run: |
+          git config user.name "paceshark-posts-bot"
+          git config user.email "posts-bot@users.noreply.github.com"
+          git add queue tools/used-photos.json 2>/dev/null || git add queue
+          git diff --cached --quiet && { echo "Nothing changed"; exit 0; }
+          git commit -m "Add photos: ${{ steps.days.outputs.list }}"
+          for i in 1 2 3; do git pull --rebase -q && git push -q && exit 0; sleep 5; done; exit 1

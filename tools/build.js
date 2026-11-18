@@ -19,6 +19,13 @@
  *       { "kind": "cta", "small": "...", "big": "...", "hl": "...", "sub": "..." } ], "caption": "..." }
  * }
  * 4-6 frames per reel (about 3 s each), 5-8 carousel slides. Keep each frame/slide to one idea.
+ *
+ * PHOTOS (18 Nov 2026): add "photo": "2-4 search words" to reel1, reel2 and/or carousel. The first reel frame and the
+ * carousel cover then get a faded Pexels photo behind the text. Needs PEXELS_API_KEY in the environment (the GitHub
+ * Action .github/workflows/build-posts.yml has it as a repo secret and rebuilds a day when its content.json is pushed).
+ * Without the key the posts build exactly as before. A downloaded photo is kept as photo-<post>.jpg next to the content
+ * file, so rebuilding a day reuses it; delete that file to get a different photo. Photos already used on another day
+ * (tools/used-photos.json) are skipped, so the same picture never comes back.
  */
 const fs = require("fs"), path = require("path"), { execFileSync } = require("child_process");
 let chromium;
@@ -59,8 +66,38 @@ const brand = `<div class="brand"><img src="data:image/png;base64,${logo}"><span
 const dots = (n, i) => `<div class="dots">${Array.from({ length: n }, (_, k) => `<i class="${k === i ? "on" : ""}"></i>`).join("")}</div>`;
 const cover = (small, big, hl, sub) => `<div class="cover"><div class="s">${esc(small)}</div><div class="b">${esc(big)}<br><span class="h">${esc(hl)}</span></div>${sub ? `<div class="u">${esc(sub)}</div>` : ""}</div>`;
 
+// ── Faded Pexels photo behind the first frame / cover ─────────────────────────────────────────────────────────────
+const usedFile = path.join(__dirname, "used-photos.json");
+const used = (() => { try { return JSON.parse(fs.readFileSync(usedFile, "utf8")); } catch { return {}; } })();
+const credits = [];
+async function photoFor(key, query, w, h) {
+  const local = path.join(dir, `photo-${key}.jpg`);
+  if (fs.existsSync(local)) return fs.readFileSync(local).toString("base64");
+  const apiKey = (process.env.PEXELS_API_KEY || "").trim();
+  if (!query || !apiKey) return null;
+  try {
+    const r = await fetch(`https://api.pexels.com/v1/search?query=${encodeURIComponent(query)}&orientation=portrait&per_page=20`, { headers: { Authorization: apiKey } });
+    if (!r.ok) { console.warn(`Pexels search "${query}" failed: ${r.status}`); return null; }
+    const list = ((await r.json()).photos || []).filter(p => !used[p.id]);
+    if (!list.length) { console.warn(`Pexels: nothing new for "${query}"`); return null; }
+    const p = list[Math.floor(Math.random() * Math.min(5, list.length))]; // one of the 5 best matches, so it isn't always the same
+    const img = await fetch(`${p.src.original}?auto=compress&cs=tinysrgb&fit=crop&w=${w}&h=${h}`);
+    if (!img.ok) return null;
+    const buf = Buffer.from(await img.arrayBuffer());
+    fs.writeFileSync(local, buf);
+    used[p.id] = { day: path.basename(dir), query, url: p.url };
+    credits.push({ post: key, query, photographer: p.photographer, url: p.url });
+    return buf.toString("base64");
+  } catch (e) { console.warn(`Pexels "${query}": ${e.message}`); return null; }
+}
+// Faded: the photo at ~45%, darkened top and bottom so the brand, hook and URL stay easy to read.
+const photoBg = b64 => b64 ? `<div style="position:absolute;inset:0;background:url(data:image/jpeg;base64,${b64}) center/cover;opacity:.5;filter:saturate(.85) contrast(1.05)"></div>
+<div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(13,13,13,.75) 0%,rgba(13,13,13,.35) 30%,rgba(13,13,13,.45) 60%,rgba(13,13,13,.9) 100%)"></div>` : "";
+
 (async () => {
   const b = await chromium.launch();
+  const coverPhoto = await photoFor("carousel", c.carousel.photo, 1080, 1350);
+  const reelPhoto = { reel1: await photoFor("reel1", c.reel1.photo, 1080, 1920), reel2: await photoFor("reel2", c.reel2.photo, 1080, 1920) };
   // Carousel, 1080x1350
   const slides = c.carousel.slides;
   let pg = await b.newPage({ viewport: { width: 1080, height: 1350 } });
@@ -68,7 +105,7 @@ const cover = (small, big, hl, sub) => `<div class="cover"><div class="s">${esc(
   for (const [i, s] of slides.entries()) {
     const inner = s.kind ? cover(s.small, s.big, s.hl, s.sub)
       : `<div class="tag">${esc(s.tag)}</div><div class="main"><div class="num">${esc(s.n ?? i)}</div><h1>${esc(s.title)}</h1><h2>${esc(s.head)}</h2><p>${esc(s.body)}</p></div>`;
-    await pg.setContent(`<style>${base}body{width:1080px;height:1350px}.cover{top:430px}.dots{bottom:130px}</style><body>${brand}${inner}${dots(slides.length, i)}<div class="url">www.paceshark.com</div><div class="hint">${i < slides.length - 1 ? "Swipe →" : ""}</div></body>`);
+    await pg.setContent(`<style>${base}body{width:1080px;height:1350px}.cover{top:430px}.dots{bottom:130px}</style><body>${i === 0 ? photoBg(coverPhoto) : ""}${brand}${inner}${dots(slides.length, i)}<div class="url">www.paceshark.com</div><div class="hint">${i < slides.length - 1 ? "Swipe →" : ""}</div></body>`);
     await pg.waitForTimeout(150);
     const name = `post3-${String(i + 1).padStart(2, "0")}.png`;
     await pg.screenshot({ path: path.join(dir, name) }); shots.push(name);
@@ -78,7 +115,7 @@ const cover = (small, big, hl, sub) => `<div class="cover"><div class="s">${esc(
   for (const r of ["reel1", "reel2"]) {
     const fr = c[r].frames;
     for (const [i, f] of fr.entries()) {
-      await pg.setContent(`<style>${base}body{width:1080px;height:1920px}.cover{top:576px}.dots{bottom:160px}</style><body>${brand}${cover(f.s, f.b, f.h, f.u)}${dots(fr.length, i)}<div class="url">www.paceshark.com</div></body>`);
+      await pg.setContent(`<style>${base}body{width:1080px;height:1920px}.cover{top:576px}.dots{bottom:160px}</style><body>${i === 0 ? photoBg(reelPhoto[r]) : ""}${brand}${cover(f.s, f.b, f.h, f.u)}${dots(fr.length, i)}<div class="url">www.paceshark.com</div></body>`);
       await pg.waitForTimeout(150);
       await pg.screenshot({ path: path.join(dir, `.${r}-${i + 1}.png`) });
     }
@@ -102,6 +139,7 @@ const cover = (small, big, hl, sub) => `<div class="cover"><div class="s">${esc(
     { slot: 1, time: "06:30", type: "reel", mode: "manual", files: ["post1.mp4"], caption: "post1.txt" },
     { slot: 2, time: "12:30", type: "reel", mode: "manual", files: ["post2.mp4"], caption: "post2.txt" },
     { slot: 3, time: "18:30", type: "carousel", mode: "auto", files: shots, caption: "post3.txt" },
-  ] }, null, 2) + "\n");
+  ], ...(credits.length ? { photos: credits } : {}) }, null, 2) + "\n");
+  if (credits.length) fs.writeFileSync(usedFile, JSON.stringify(used, null, 1) + "\n");
   console.log(`Built ${dir}: 2 reels, ${shots.length} carousel slides, captions, plan.json`);
 })().catch(e => { console.error(e); process.exit(1); });
