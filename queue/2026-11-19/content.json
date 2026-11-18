@@ -2,37 +2,152 @@
   "reel1": {
     "photo": "runner jogging slowly park",
     "frames": [
-      { "s": "MYTH", "b": "Slow runs are", "h": "wasted runs", "u": "Busted. Here's why." },
-      { "s": "THE TRUTH", "b": "Easy is where", "h": "fitness grows", "u": "Most of your week should feel easy." },
-      { "s": "THE TEST", "b": "Can you", "h": "chat?", "u": "Full sentences, no gasping. That's easy pace." },
-      { "s": "THE PAYOFF", "b": "Fresh legs for", "h": "hard days", "u": "Go easy on easy days, hard on hard days." },
-      { "s": "SAVE THIS", "b": "Slow down", "h": "tomorrow", "u": "Save this for your next easy run." }
+      {
+        "s": "MYTH",
+        "b": "Slow runs are",
+        "h": "wasted runs",
+        "u": "Busted. Here's why."
+      },
+      {
+        "s": "THE TRUTH",
+        "b": "Easy is where",
+        "h": "fitness grows",
+        "u": "Most of your week should feel easy."
+      },
+      {
+        "s": "THE TEST",
+        "b": "Can you",
+        "h": "chat?",
+        "u": "Full sentences, no gasping. That's easy pace."
+      },
+      {
+        "s": "THE PAYOFF",
+        "b": "Fresh legs for",
+        "h": "hard days",
+        "u": "Go easy on easy days, hard on hard days."
+      },
+      {
+        "s": "SAVE THIS",
+        "b": "Slow down",
+        "h": "tomorrow",
+        "u": "Save this for your next easy run."
+      }
     ],
     "caption": "Your easy runs are probably too fast. Most runners' are.\nIf you can't chat in full sentences, slow down. Easy days make the hard days count.\nSave this for your next easy run.\n\n#easyrun #runningtips #runningmyths #runningSA #PaceShark"
   },
   "reel2": {
     "photo": "friends jogging together smiling",
     "frames": [
-      { "s": "EVERY CLUB RUN HAS", "b": "These", "h": "6 people", "u": "Which one are you?" },
-      { "s": "NUMBER 1", "b": "The one who says", "h": "\"easy pace\"", "u": "Then drops everyone at 2 km." },
-      { "s": "NUMBER 2", "b": "The Strava", "h": "photographer", "u": "Stops for the sunrise. Every. Single. Week." },
-      { "s": "NUMBER 3", "b": "The coffee", "h": "organiser", "u": "Honestly only here for the after-party." },
-      { "s": "NUMBER 4 TO 6", "b": "The chatterbox, the", "h": "GPS whisperer", "u": "And the one who's always late but still finishes first." },
-      { "s": "YOU KNOW THEM", "b": "Tag your", "h": "run club", "u": "Tag your run club." }
+      {
+        "s": "EVERY CLUB RUN HAS",
+        "b": "These",
+        "h": "6 people",
+        "u": "Which one are you?"
+      },
+      {
+        "s": "NUMBER 1",
+        "b": "The one who says",
+        "h": "\"easy pace\"",
+        "u": "Then drops everyone at 2 km."
+      },
+      {
+        "s": "NUMBER 2",
+        "b": "The Strava",
+        "h": "photographer",
+        "u": "Stops for the sunrise. Every. Single. Week."
+      },
+      {
+        "s": "NUMBER 3",
+        "b": "The coffee",
+        "h": "organiser",
+        "u": "Honestly only here for the after-party."
+      },
+      {
+        "s": "NUMBER 4",
+        "b": "The",
+        "h": "chatterbox",
+        "u": "Talks the whole way. Somehow never out of breath."
+      },
+      {
+        "s": "NUMBER 5",
+        "b": "The GPS",
+        "h": "whisperer",
+        "u": "\"My watch says 10.3, so it was 10.3.\""
+      },
+      {
+        "s": "NUMBER 6",
+        "b": "Always late,",
+        "h": "finishes first",
+        "u": "Arrives as you leave. Still beats everyone back."
+      },
+      {
+        "s": "YOU KNOW THEM ALL",
+        "b": "Tag your",
+        "h": "run club",
+        "u": "Which one are you? Tell me below."
+      }
     ],
     "caption": "Every run club has these six people. You know exactly who they are.\nThe fake easy pace, the sunrise photos, the coffee planner. Which one are you?\nTag your run club.\n\n#runclub #runningclub #runningcommunity #runnersofinstagram #PaceShark"
   },
   "carousel": {
     "photo": "alarm clock early morning",
     "slides": [
-      { "kind": "cover", "small": "BE HONEST", "big": "6 signs you're", "hl": "a real runner", "sub": "Count how many fit you. We'll wait." },
-      { "n": 1, "tag": "Sleep", "title": "5am is normal", "head": "Your alarm goes off before the birds.", "body": "And somehow you're annoyed when the weekend run starts at 7." },
-      { "n": 2, "tag": "Laundry", "title": "Kit everywhere", "head": "Half your washing is running kit.", "body": "The other half is the socks you swore you'd throw away." },
-      { "n": 3, "tag": "Maths", "title": "Pace in your head", "head": "You convert everything into minutes per km.", "body": "Even the drive to work. Especially the drive to work." },
-      { "n": 4, "tag": "Food", "title": "Always hungry", "head": "Second breakfast is a real meal.", "body": "Long run Saturday means the fridge doesn't stand a chance." },
-      { "n": 5, "tag": "Weather", "title": "Wind forecasts", "head": "You check the wind before the rain.", "body": "Cape Town runners know: a 40 km/h headwind changes everything." },
-      { "n": 6, "tag": "Talk", "title": "It comes up", "head": "Every conversation ends up at your next race.", "body": "Nobody asked. You told them anyway. With splits." },
-      { "kind": "cta", "small": "SO, HOW MANY?", "big": "Which race are you", "hl": "training for?", "sub": "Tell me below." }
+      {
+        "kind": "cover",
+        "small": "BE HONEST",
+        "big": "6 signs you're",
+        "hl": "a real runner",
+        "sub": "Count how many fit you. We'll wait."
+      },
+      {
+        "n": 1,
+        "tag": "Sleep",
+        "title": "5am is normal",
+        "head": "Your alarm goes off before the birds.",
+        "body": "And somehow you're annoyed when the weekend run starts at 7."
+      },
+      {
+        "n": 2,
+        "tag": "Laundry",
+        "title": "Kit everywhere",
+        "head": "Half your washing is running kit.",
+        "body": "The other half is the socks you swore you'd throw away."
+      },
+      {
+        "n": 3,
+        "tag": "Maths",
+        "title": "Pace in your head",
+        "head": "You convert everything into minutes per km.",
+        "body": "Even the drive to work. Especially the drive to work."
+      },
+      {
+        "n": 4,
+        "tag": "Food",
+        "title": "Always hungry",
+        "head": "Second breakfast is a real meal.",
+        "body": "Long run Saturday means the fridge doesn't stand a chance."
+      },
+      {
+        "n": 5,
+        "tag": "Weather",
+        "title": "Wind forecasts",
+        "head": "You check the wind before the rain.",
+        "body": "Cape Town runners know: a 40 km/h headwind changes everything."
+      },
+      {
+        "n": 6,
+        "tag": "Talk",
+        "title": "It comes up",
+        "head": "Every conversation ends up at your next race.",
+        "body": "Nobody asked. You told them anyway. With splits."
+      },
+      {
+        "kind": "cta",
+        "small": "SO, HOW MANY?",
+        "big": "Which race are you",
+        "hl": "training for?",
+        "sub": "Tell me below."
+      }
     ],
     "caption": "If your alarm goes off before the birds and you're still the one complaining about a 7am start, this one's for you.\nSix signs you've become a real runner. How many are you?\nWhich race are you training for? Tell me below.\n\n#runnerlife #runnersofinstagram #runninghumor #capetownrunners #PaceShark"
   }
