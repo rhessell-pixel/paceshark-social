@@ -1,0 +1,42 @@
+{
+  "reel1": {
+    "photo": "runner tying running shoes",
+    "frames": [
+      { "s": "RACE WEEK RULE", "b": "5 things you never", "h": "try on race day" },
+      { "s": "NUMBER 1", "b": "New", "h": "shoes", "u": "Break them in on long runs first." },
+      { "s": "NUMBER 2", "b": "A new", "h": "breakfast", "u": "Eat what you ate before your best long run." },
+      { "s": "NUMBER 3", "b": "A gel you've", "h": "never tested", "u": "Your stomach decides your race." },
+      { "s": "NUMBER 4", "b": "New shorts", "h": "or socks", "u": "Chafe doesn't care how fit you are." },
+      { "s": "NUMBER 5", "b": "A pace you've", "h": "never run", "u": "Race day is not the day to find out." },
+      { "s": "TEST IT FIRST", "b": "Save this for your", "h": "next long run" }
+    ],
+    "caption": "Race day is the worst day to try anything new.\nShoes, breakfast, gels, kit and pace: test them all on your long runs first.\nSave this for your next long run.\n\n#racedayprep #runningtips #marathontraining #runningSA #PaceShark"
+  },
+  "reel2": {
+    "photo": "tired runner sitting on curb",
+    "frames": [
+      { "s": "BE HONEST", "b": "5 lies every", "h": "runner tells" },
+      { "s": "LIE NUMBER 1", "b": "\"Just an", "h": "easy 5k\"", "u": "Ran it at tempo pace. Again." },
+      { "s": "LIE NUMBER 2", "b": "\"I'm not", "h": "racing it\"", "u": "Sprinted the last 200m for 47th place." },
+      { "s": "LIE NUMBER 3", "b": "\"I'll stretch", "h": "later\"", "u": "Later never came." },
+      { "s": "LIE NUMBER 4", "b": "\"Last race", "h": "this year\"", "u": "Entered two more on the drive home." },
+      { "s": "LIE NUMBER 5", "b": "\"My legs feel", "h": "fine\"", "u": "Takes the stairs backwards." },
+      { "s": "OKAY, OKAY", "b": "Which race are you", "h": "training for?", "u": "Tell me below." }
+    ],
+    "caption": "Every runner has told at least three of these this month.\nThe easy 5k that wasn't, the race you weren't racing, the stretch you'll do later.\nWhich race are you training for? Tell me below.\n\n#runningmemes #runnerproblems #runningcommunity #trailrunningsa #PaceShark"
+  },
+  "carousel": {
+    "photo": "runners stretching together in park",
+    "slides": [
+      { "kind": "cover", "small": "RUN CLUB ETIQUETTE", "big": "6 unwritten rules of", "hl": "every club run", "sub": "Nobody tells you these. Until now." },
+      { "n": 1, "tag": "Pace", "title": "Stay level", "head": "No half-wheeling: stay level with the pacer.", "body": "Creeping ahead turns an easy run into a race nobody signed up for." },
+      { "n": 2, "tag": "Road", "title": "Two abreast, max", "head": "Chat side by side, not five across the road.", "body": "Single file when cars come. Everyone gets home, the club keeps its good name." },
+      { "n": 3, "tag": "Group", "title": "Regroup at turns", "head": "Fast runners loop back. Nobody runs alone.", "body": "The best clubs wait at the corners so the back of the bunch never gets lost." },
+      { "n": 4, "tag": "Dark", "title": "Lights on", "head": "Headlamp, reflective kit, blinking light.", "body": "Early starts and winter evenings: if drivers can't see you, they can't miss you." },
+      { "n": 5, "tag": "Safety", "title": "Say if you cut it", "head": "Turning back early? Tell someone first.", "body": "Otherwise half the club goes looking for you at the finish." },
+      { "n": 6, "tag": "Easy", "title": "Easy means easy", "head": "Save the heroics for the Tuesday session.", "body": "The recovery run is not the place to prove your fitness." },
+      { "kind": "cta", "small": "KNOW SOMEONE WHO HALF-WHEELS?", "big": "Send this to your club's", "hl": "WhatsApp group", "sub": "They will know who it is for." }
+    ],
+    "caption": "Every run club has rules. Nobody ever writes them down.\nSix things that make a club run better for everyone, starting with the half-wheeler.\nSend this to your club's WhatsApp group.\n\n#runclub #runningclub #groupruns #runclubetiquette #PaceShark"
+  }
+}
