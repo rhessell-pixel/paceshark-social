@@ -37,5 +37,25 @@
       ],
       "caption": "post3.txt"
     }
+  ],
+  "photos": [
+    {
+      "post": "carousel",
+      "query": "runners stretching together in park",
+      "photographer": "Sarah  Chai",
+      "url": "https://www.pexels.com/photo/smiling-sportswomen-stretching-legs-on-park-bench-7266735/"
+    },
+    {
+      "post": "reel1",
+      "query": "runner tying running shoes",
+      "photographer": "KoolShooters",
+      "url": "https://www.pexels.com/photo/athlete-on-running-track-8533446/"
+    },
+    {
+      "post": "reel2",
+      "query": "tired runner sitting on curb",
+      "photographer": "Kaybee Photography",
+      "url": "https://www.pexels.com/photo/athlete-resting-on-track-in-red-sportswear-32084032/"
+    }
   ]
 }
