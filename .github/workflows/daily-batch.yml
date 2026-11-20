@@ -1,0 +1,57 @@
+# Makes tomorrow's three posts every afternoon, on GitHub itself, so the 18:00 email never depends on a Claude chat session
+# (20 Nov 2026: the scheduled task failed with "usage limit reached" and nothing was made). Needs the repo secret ANTHROPIC_API_KEY;
+# PEXELS_API_KEY adds the faded photos. Runs at 15:40 SA time and again at 16:40 as a safety net; does nothing when tomorrow's folder
+# already exists (made by the Claude task or by hand). "Run workflow" makes a day by hand (leave the day empty for tomorrow).
+name: Make tomorrow's posts
+on:
+  schedule:
+    - cron: "40 13 * * *"
+    - cron: "40 14 * * *"
+  workflow_dispatch:
+    inputs:
+      day:
+        description: "Day (YYYY-MM-DD), empty = tomorrow"
+        required: false
+permissions:
+  contents: write
+concurrency:
+  group: build-posts
+  cancel-in-progress: false
+jobs:
+  make:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - name: Write the words
+        id: words
+        run: |
+          [ -n "$ANTHROPIC_API_KEY" ] || { echo "ANTHROPIC_API_KEY secret is not set"; exit 1; }
+          out=$(python3 tools/make_content.py ${{ github.event.inputs.day }})
+          echo "result=$out" >> "$GITHUB_OUTPUT"; echo "$out"
+      - uses: actions/setup-node@v4
+        if: steps.words.outputs.result != 'exists'
+        with:
+          node-version: 20
+      - name: Install Playwright and ffmpeg
+        if: steps.words.outputs.result != 'exists'
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-liberation >/dev/null
+          npm install --no-save playwright@1.48.2 >/dev/null
+          npx playwright install --with-deps chromium >/dev/null
+      - name: Build with photos
+        if: steps.words.outputs.result != 'exists'
+        run: node tools/build.js "queue/${{ steps.words.outputs.result }}/content.json"
+      - name: Commit
+        if: steps.words.outputs.result != 'exists'
+        run: |
+          git config user.name "paceshark-posts-bot"
+          git config user.email "posts-bot@users.noreply.github.com"
+          git add queue tools/used-photos.json 2>/dev/null || git add queue
+          git commit -m "Posts for ${{ steps.words.outputs.result }} (daily workflow)"
+          for i in 1 2 3; do git pull --rebase -q && git push -q && exit 0; sleep 5; done; exit 1
