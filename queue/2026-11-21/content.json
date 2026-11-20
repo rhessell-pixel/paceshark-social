@@ -1,0 +1,38 @@
+{
+  "reel1": {
+    "frames": [
+      { "s": "LONG RUN TOMORROW?", "b": "5 things to do the", "h": "night before" },
+      { "s": "NUMBER 1", "b": "Lay out your", "h": "kit", "u": "Shoes, socks, vest, gels. No 5am panic." },
+      { "s": "NUMBER 2", "b": "Eat a normal", "h": "dinner", "u": "Familiar carbs, not a food experiment." },
+      { "s": "NUMBER 3", "b": "Drink water", "h": "all evening", "u": "Not a litre at 9pm." },
+      { "s": "NUMBER 4", "b": "Charge your", "h": "watch", "u": "A long run that isn't on Strava didn't happen." },
+      { "s": "NUMBER 5", "b": "Sleep", "h": "early", "u": "Sleep is part of the training plan." },
+      { "s": "LONG RUN SORTED", "b": "Save this for your", "h": "next long run" }
+    ],
+    "caption": "The long run is won the night before.\nKit, dinner, water, watch and sleep: five small things that make the morning easy.\nSave this for your next long run.\n\n#longrun #runningtips #runningSA #trailrunningsa #PaceShark"
+  },
+  "reel2": {
+    "frames": [
+      { "s": "SATURDAY RUN CLUB", "b": "5 things at every", "h": "coffee stop" },
+      { "s": "NUMBER 1", "b": "Someone orders", "h": "cake", "u": "At 7:45 in the morning. No shame." },
+      { "s": "NUMBER 2", "b": "A table that's", "h": "too small", "u": "Twenty runners, one table, no problem." },
+      { "s": "NUMBER 3", "b": "The route", "h": "debate", "u": "It was 12k. Or 14k. Strava says 13." },
+      { "s": "NUMBER 4", "b": "A runner who", "h": "sweats", "u": "Steam rising off them like a kettle." },
+      { "s": "NUMBER 5", "b": "Plans for the", "h": "next run", "u": "Before the coffee is even finished." },
+      { "s": "THIS IS THE BEST PART", "b": "Tag your", "h": "run club" }
+    ],
+    "caption": "The run is the excuse. The coffee stop is the point.\nFive things you will find at every club's after-run table.\nTag your run club.\n\n#runclub #runningclub #runningcommunity #runnerlife #PaceShark"
+  },
+  "carousel": {
+    "slides": [
+      { "kind": "cover", "small": "TRAIL RUNNING", "big": "5 tips to run downhill without", "hl": "wrecking your quads", "sub": "Most trail races are lost on the descents." },
+      { "n": 1, "tag": "Stride", "title": "Shorter steps", "head": "Take quick, short steps instead of long bounds.", "body": "A shorter stride lands softer and puts less load on your quads." },
+      { "n": 2, "tag": "Posture", "title": "Stay tall", "head": "Lean with the slope, not back against it.", "body": "Leaning back means braking with every step. Stay relaxed and let gravity help." },
+      { "n": 3, "tag": "Eyes", "title": "Look ahead", "head": "Look five metres up the trail, not at your feet.", "body": "Your feet find the rocks faster when your eyes are already planning the line." },
+      { "n": 4, "tag": "Arms", "title": "Use your arms", "head": "Let your arms out for balance.", "body": "Loose arms keep you steady on loose ground and stop you tensing up." },
+      { "n": 5, "tag": "Train it", "title": "Practise downhill", "head": "Add a few downhill repeats to your week.", "body": "Quads adapt to downhill running when you build it up gradually." },
+      { "kind": "cta", "small": "RUNNING A TRAIL RACE?", "big": "Get your course plan:", "hl": "link in bio", "sub": "www.paceshark.com" }
+    ],
+    "caption": "Trail races are often won or lost on the downhills.\nShort steps, tall posture, eyes ahead, loose arms, and some downhill practice.\nRunning a trail race? Your course plan: link in bio.\n\n#trailrunning #trailrunningsa #downhillrunning #runningtips #PaceShark"
+  }
+}
