@@ -1,0 +1,41 @@
+{
+  "reel1": {
+    "photo": "runner alarm clock early morning",
+    "frames": [
+      { "s": "SUNDAY FUN", "b": "Runner logic makes", "h": "zero sense", "u": "Six things only runners do." },
+      { "s": "NUMBER 1", "b": "Sets a 4:45 alarm", "h": "for fun", "u": "On a Sunday. Voluntarily." },
+      { "s": "NUMBER 2", "b": "Runs laps of the car park", "h": "to hit 10.00 km", "u": "9.97 does not count." },
+      { "s": "NUMBER 3", "b": "Pays to run roads", "h": "you run every day", "u": "But now there's a medal." },
+      { "s": "NUMBER 4", "b": "Calls 21 km", "h": "only a half", "u": "As if that's a short run." },
+      { "s": "NUMBER 5", "b": "Feels guilty on", "h": "rest day", "u": "Rest is part of the plan. Still feels wrong." },
+      { "s": "NUMBER 6", "b": "Hates hills. Books a", "h": "mountain race", "u": "Every single year." },
+      { "s": "BE HONEST", "b": "Which race are you", "h": "training for?", "u": "Tell me below." }
+    ],
+    "caption": "Runner logic makes zero sense, and we wouldn't change a thing.\nThe car park laps to hit 10.00 km are a personal favourite.\nWhich race are you training for? Tell me below.\n\n#runnerlife #runnershumor #runningmemes #runningSA #PaceShark"
+  },
+  "reel2": {
+    "photo": "group of runners laughing",
+    "frames": [
+      { "s": "RUN CLUB", "b": "Why club runners", "h": "never quit", "u": "Four reasons it works." },
+      { "s": "NUMBER 1", "b": "Someone is waiting", "h": "at 5:30", "u": "Hard to snooze when the group is outside." },
+      { "s": "NUMBER 2", "b": "Nobody runs", "h": "alone", "u": "There is always a pace group for you." },
+      { "s": "NUMBER 3", "b": "Long runs go faster", "h": "when you talk", "u": "20 km of stories feels like 10." },
+      { "s": "NUMBER 4", "b": "Someone always has", "h": "a spare gel", "u": "And sunscreen. And plasters." },
+      { "s": "SHARE IT", "b": "Send this to your club's", "h": "WhatsApp group" }
+    ],
+    "caption": "The secret to sticking with running? Other runners.\nSomeone waiting at 5:30 beats any motivation quote.\nSend this to your club's WhatsApp group.\n\n#runclub #runningcommunity #runwithfriends #capetownrunners #PaceShark"
+  },
+  "carousel": {
+    "photo": "exhausted runner lying on grass",
+    "slides": [
+      { "kind": "cover", "small": "AFTER THE LONG RUN", "big": "The 24 hours after your long run", "hl": "matter too", "sub": "Five things to do before Monday." },
+      { "n": 1, "tag": "Fuel", "title": "EAT SOON", "head": "Get a proper meal in within an hour or so.", "body": "Carbs and some protein. Coffee alone is not breakfast." },
+      { "n": 2, "tag": "Drink", "title": "TOP UP", "head": "Drink steadily through the day.", "body": "If you came home white with salt, add some salt back with your food." },
+      { "n": 3, "tag": "Move", "title": "KEEP MOVING", "head": "A walk beats a whole day on the couch.", "body": "Easy movement helps stiff legs loosen up." },
+      { "n": 4, "tag": "Sleep", "title": "SLEEP EARLY", "head": "Sleep is where the training sinks in.", "body": "An early Sunday night pays you back all week." },
+      { "n": 5, "tag": "Monday", "title": "GO EASY", "head": "Make Monday a rest day or a very easy run.", "body": "Feeling fresh is not a reason to smash it. Wait for your next quality session." },
+      { "kind": "cta", "small": "DON'T LOSE THIS", "big": "Save this for your", "hl": "next long run", "sub": "www.paceshark.com" }
+    ],
+    "caption": "The long run is only half the job. The next 24 hours are the other half.\nEat soon, drink, keep moving, sleep early, and go easy on Monday.\nSave this for your next long run.\n\n#longrun #sundaylongrun #runningtips #recoveryday #PaceShark"
+  }
+}
