@@ -36,5 +36,25 @@
       ],
       "caption": "post3.txt"
     }
+  ],
+  "photos": [
+    {
+      "post": "carousel",
+      "query": "exhausted runner lying on grass",
+      "photographer": "Anna Shvets",
+      "url": "https://www.pexels.com/photo/tired-senior-man-resting-and-lying-on-racetrack-5067701/"
+    },
+    {
+      "post": "reel1",
+      "query": "runner alarm clock early morning",
+      "photographer": "Anastasiya Vragova",
+      "url": "https://www.pexels.com/photo/a-person-holding-an-alarm-clock-8345986/"
+    },
+    {
+      "post": "reel2",
+      "query": "group of runners laughing",
+      "photographer": "Callum Stegmann",
+      "url": "https://www.pexels.com/photo/energetic-trail-runners-in-cape-town-s-scenic-landscape-34423108/"
+    }
   ]
 }
