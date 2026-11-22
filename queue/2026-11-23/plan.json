@@ -40,21 +40,9 @@
   "photos": [
     {
       "post": "carousel",
-      "query": "group of runners running road evening",
-      "photographer": "VANNGO Ng",
-      "url": "https://www.pexels.com/photo/night-marathon-runners-in-urban-scene-38693138/"
-    },
-    {
-      "post": "reel1",
-      "query": "sweaty runner drinking water sun",
-      "photographer": "Ketut Subiyanto",
-      "url": "https://www.pexels.com/photo/a-man-in-crewneck-t-shirt-drinking-from-a-plastic-bottle-4803677/"
-    },
-    {
-      "post": "reel2",
-      "query": "runner striding on grass field",
-      "photographer": "Franco Monsalvo",
-      "url": "https://www.pexels.com/photo/athlete-jogging-on-sunny-day-outdoors-37926449/"
+      "query": "friends jogging together park",
+      "photographer": "MART  PRODUCTION",
+      "url": "https://www.pexels.com/photo/man-and-woman-jogging-near-brown-tree-7880218/"
     }
   ]
 }
