@@ -1,0 +1,41 @@
+{
+  "reel1": {
+    "photo": "sweaty runner drinking water sun",
+    "frames": [
+      { "s": "SUMMER RUNNING", "b": "5 rules for running", "h": "in the heat", "u": "Number 2 is the one everyone ignores." },
+      { "s": "NUMBER 1", "b": "Run before the sun", "h": "gets high", "u": "Early mornings or late evenings." },
+      { "s": "NUMBER 2", "b": "Slow down", "h": "on purpose", "u": "Same effort, slower pace. That's normal in the heat." },
+      { "s": "NUMBER 3", "b": "Drink before", "h": "you're thirsty", "u": "Carry water on anything long." },
+      { "s": "NUMBER 4", "b": "Pick the route", "h": "with shade", "u": "Trees and a sea breeze beat open tar." },
+      { "s": "NUMBER 5", "b": "Light colours,", "h": "less clothing", "u": "Plus a cap and sunscreen." },
+      { "s": "DON'T LOSE THIS", "b": "Save this for your", "h": "next long run" }
+    ],
+    "caption": "Slower in the heat? That's not you losing fitness. That's summer.\nFive rules for running when it's hot, and number 2 matters most.\nSave this for your next long run.\n\n#summerrunning #runninginheat #runningtips #runningSA #PaceShark"
+  },
+  "reel2": {
+    "photo": "runner striding on grass field",
+    "frames": [
+      { "s": "MONDAY TRAINING TIP", "b": "20 seconds that make", "h": "you faster", "u": "They're called strides." },
+      { "s": "WHAT", "b": "Short, fast,", "h": "relaxed bursts", "u": "About 20 seconds. Not a sprint." },
+      { "s": "WHEN", "b": "Right after an", "h": "easy run", "u": "Two or three times a week." },
+      { "s": "HOW MANY", "b": "Four to six,", "h": "walk back", "u": "Full recovery between each one." },
+      { "s": "THE FEEL", "b": "Fast but", "h": "smooth", "u": "Run tall, quick feet, loose shoulders." },
+      { "s": "WHY", "b": "Quicker legs,", "h": "no hard session", "u": "Better form without the fatigue." },
+      { "s": "BE HONEST", "b": "Which race are you", "h": "training for?", "u": "Tell me below." }
+    ],
+    "caption": "The easiest way to get faster isn't another hard session. It's 20 seconds of strides.\nFour to six after an easy run, two or three times a week.\nWhich race are you training for? Tell me below.\n\n#strides #speedwork #runningtips #runnersofinstagram #PaceShark"
+  },
+  "carousel": {
+    "photo": "group of runners running road evening",
+    "slides": [
+      { "kind": "cover", "small": "RUN CLUB + RACE PLAN", "big": "Your club's Tuesday session", "hl": "vs your plan", "sub": "How to make both work. Swipe." },
+      { "n": 1, "tag": "Count it", "title": "IT'S A WORKOUT", "head": "The club session is a hard day. Count it as one.", "body": "Don't stack your plan's hard session on top of it in the same week." },
+      { "n": 2, "tag": "Swap", "title": "MOVE THE DAY", "head": "Put your plan's quality session on club night.", "body": "Same work, same week. Just with company." },
+      { "n": 3, "tag": "Around it", "title": "EASY EITHER SIDE", "head": "Keep the day before and after easy.", "body": "Hard days back to back is how niggles start." },
+      { "n": 4, "tag": "Your pace", "title": "PICK YOUR GROUP", "head": "Run with the group that matches your session.", "body": "Chasing the fast bunch on an easy week is not the plan." },
+      { "n": 5, "tag": "Race week", "title": "HOLD BACK", "head": "In race week, run it gently or skip the hard reps.", "body": "Your club will still be there after the race." },
+      { "kind": "cta", "small": "RUN WITH A CLUB?", "big": "Add it on PaceShark", "hl": "link in bio", "sub": "Your club runs go straight into your plan." }
+    ],
+    "caption": "Love your club's Tuesday session but worried it messes with your race plan? It doesn't have to.\nCount it, swap the day, keep the days around it easy.\nRun with a club? Add it on PaceShark: link in bio.\n\n#runclub #runningclub #marathontraining #trainingplan #PaceShark"
+  }
+}
