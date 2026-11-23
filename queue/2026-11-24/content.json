@@ -1,0 +1,42 @@
+{
+  "reel1": {
+    "photo": "runner looking at map thinking",
+    "frames": [
+      { "s": "RACE SPOTLIGHT TUESDAY", "b": "Picking your next race?", "h": "Ask these 5 first", "u": "Before you hit enter on that entry." },
+      { "s": "NUMBER 1", "b": "How many weeks", "h": "until race day?", "u": "Enough time to build up, not cram." },
+      { "s": "NUMBER 2", "b": "Does the course", "h": "suit you?", "u": "Hills, trail or flat road. Train for the one you pick." },
+      { "s": "NUMBER 3", "b": "What's the", "h": "cut-off?", "u": "Check it before you enter, not on the start line." },
+      { "s": "NUMBER 4", "b": "How hot is it", "h": "that time of year?", "u": "A summer race needs heat training." },
+      { "s": "NUMBER 5", "b": "Will you enjoy", "h": "training for it?", "u": "You'll spend months on it. Pick one that excites you." },
+      { "s": "YOUR TURN", "b": "Which race are you", "h": "training for?", "u": "Tell me below." }
+    ],
+    "caption": "Picking your next race? Ask these five questions before you enter.\nWeeks to go, the course, the cut-off, the weather, and whether you'll love the build-up.\nWhich race are you training for? Tell me below.\n\n#racecalendar #nextrace #marathontraining #trailrunning #PaceShark"
+  },
+  "reel2": {
+    "photo": "group of runners high five",
+    "frames": [
+      { "s": "RUN CLUB", "b": "5 signs you've found", "h": "your club", "u": "Number 3 is never on mute." },
+      { "s": "NUMBER 1", "b": "They notice when", "h": "you skip a week", "u": "And they ask about it." },
+      { "s": "NUMBER 2", "b": "Someone waits at", "h": "the turnaround", "u": "Even when you're last." },
+      { "s": "NUMBER 3", "b": "The WhatsApp group", "h": "never sleeps", "u": "200 messages about a 5am start." },
+      { "s": "NUMBER 4", "b": "You know their pace", "h": "before their surname", "u": "Sarah, 5:40s. Surname unknown." },
+      { "s": "NUMBER 5", "b": "You'd show up", "h": "in the rain", "u": "Because they will too." },
+      { "s": "FOUND YOURS?", "b": "Tag your", "h": "run club" }
+    ],
+    "caption": "You know their pace but not their surname. That's how you know you've found your club.\nFive signs your run club is the real thing.\nTag your run club.\n\n#runclub #runningcommunity #runwithfriends #clubrun #PaceShark"
+  },
+  "carousel": {
+    "photo": "runner headlamp night road",
+    "slides": [
+      { "kind": "cover", "small": "EARLY START?", "big": "6 rules for running", "hl": "in the dark", "sub": "Your long run starts before sunrise. Swipe." },
+      { "n": 1, "tag": "Be seen", "title": "LIGHT YOURSELF UP", "head": "Wear something bright or reflective.", "body": "Drivers see your kit before they see you. A small flashing light helps." },
+      { "n": 2, "tag": "See the road", "title": "BRING A LIGHT", "head": "A headlamp or torch beats your phone screen.", "body": "Potholes and kerbs don't show up in the dark." },
+      { "n": 3, "tag": "Route", "title": "KEEP IT FAMILIAR", "head": "Run routes you know, with street lights.", "body": "Save the new trail for daylight." },
+      { "n": 4, "tag": "Tell someone", "title": "SHARE YOUR ROUTE", "head": "Let someone know where you're going.", "body": "And roughly when you'll be back." },
+      { "n": 5, "tag": "Listen", "title": "ONE EARBUD MAX", "head": "Keep at least one ear on the road.", "body": "Or leave the music at home and enjoy the quiet." },
+      { "n": 6, "tag": "Traffic", "title": "FACE THE CARS", "head": "No pavement? Run facing oncoming traffic.", "body": "You see them coming, and they see you." },
+      { "kind": "cta", "small": "DON'T LOSE THIS", "big": "Save this for your", "hl": "next long run", "sub": "For every dark, early start this summer." }
+    ],
+    "caption": "Summer means early starts, and early starts mean running in the dark.\nBe seen, carry a light, stick to routes you know.\nSave this for your next long run.\n\n#runninginthedark #earlymorningrun #runsafe #longrun #PaceShark"
+  }
+}
