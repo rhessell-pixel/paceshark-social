@@ -37,5 +37,25 @@
       ],
       "caption": "post3.txt"
     }
+  ],
+  "photos": [
+    {
+      "post": "carousel",
+      "query": "runner headlamp night road",
+      "photographer": "VANNGO Ng",
+      "url": "https://www.pexels.com/photo/energetic-night-marathon-runner-in-action-38693182/"
+    },
+    {
+      "post": "reel1",
+      "query": "runner looking at map thinking",
+      "photographer": "Nataliya Vaitkevich",
+      "url": "https://www.pexels.com/photo/a-woman-with-sunglasses-reading-a-map-7235592/"
+    },
+    {
+      "post": "reel2",
+      "query": "group of runners high five",
+      "photographer": "RDNE Stock project",
+      "url": "https://www.pexels.com/photo/women-giving-a-high-five-7551225/"
+    }
   ]
 }

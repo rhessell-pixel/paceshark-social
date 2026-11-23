@@ -14,10 +14,20 @@
   "query": "runner jogging slowly park",
   "url": "https://www.pexels.com/photo/a-sportswoman-jogging-in-a-park-6551486/"
  },
+ "7235592": {
+  "day": "2026-11-24",
+  "query": "runner looking at map thinking",
+  "url": "https://www.pexels.com/photo/a-woman-with-sunglasses-reading-a-map-7235592/"
+ },
  "7266735": {
   "day": "2026-11-20",
   "query": "runners stretching together in park",
   "url": "https://www.pexels.com/photo/smiling-sportswomen-stretching-legs-on-park-bench-7266735/"
+ },
+ "7551225": {
+  "day": "2026-11-24",
+  "query": "group of runners high five",
+  "url": "https://www.pexels.com/photo/women-giving-a-high-five-7551225/"
  },
  "7623546": {
   "day": "2026-11-19",
@@ -68,5 +78,10 @@
   "day": "2026-11-23",
   "query": "group of runners running road evening",
   "url": "https://www.pexels.com/photo/night-marathon-runners-in-urban-scene-38693138/"
+ },
+ "38693182": {
+  "day": "2026-11-24",
+  "query": "runner headlamp night road",
+  "url": "https://www.pexels.com/photo/energetic-night-marathon-runner-in-action-38693182/"
  }
 }
