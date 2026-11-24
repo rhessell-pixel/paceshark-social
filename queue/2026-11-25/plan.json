@@ -37,5 +37,25 @@
       ],
       "caption": "post3.txt"
     }
+  ],
+  "photos": [
+    {
+      "post": "carousel",
+      "query": "small group morning jog park",
+      "photographer": "el jusuf",
+      "url": "https://www.pexels.com/photo/group-of-people-jogging-in-a-city-21517229/"
+    },
+    {
+      "post": "reel1",
+      "query": "runner eating big breakfast",
+      "photographer": "Diva Plavalaguna",
+      "url": "https://www.pexels.com/photo/man-having-breakfast-5711229/"
+    },
+    {
+      "post": "reel2",
+      "query": "runner eating banana outdoors",
+      "photographer": "Vikesh zen",
+      "url": "https://www.pexels.com/photo/fresh-bananas-in-metal-tub-on-street-market-39969887/"
+    }
   ]
 }
