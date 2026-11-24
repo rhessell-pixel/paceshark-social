@@ -1,0 +1,40 @@
+{
+  "reel1": {
+    "photo": "runner eating big breakfast",
+    "frames": [
+      { "s": "ATE THE WHOLE FRIDGE AFTER YOUR RUN?", "b": "4 reasons you're", "h": "always hungry", "u": "Runger is real. Here's why." },
+      { "s": "NUMBER 1", "b": "You skipped the", "h": "after-run meal", "u": "Eat within an hour, not at 3pm." },
+      { "s": "NUMBER 2", "b": "You ran long", "h": "on an empty tank", "u": "Fuel on runs over 90 minutes." },
+      { "s": "NUMBER 3", "b": "Not enough", "h": "protein", "u": "Add some to every meal, not just dinner." },
+      { "s": "NUMBER 4", "b": "You're actually", "h": "thirsty", "u": "Drink first. Then raid the fridge." },
+      { "s": "DON'T LOSE THIS", "b": "Save this for your", "h": "next long run" }
+    ],
+    "caption": "Ate the whole fridge after your run and still hungry? Runger is real.\nUsually it's a skipped meal, an empty tank on the run, too little protein, or plain thirst.\nSave this for your next long run.\n\n#runnerproblems #runningfuel #postrun #runnersofinstagram #PaceShark"
+  },
+  "reel2": {
+    "photo": "runner eating banana outdoors",
+    "frames": [
+      { "s": "FUEL WEDNESDAY", "b": "Your stomach needs", "h": "training too", "u": "Not just your legs." },
+      { "s": "NUMBER 1", "b": "Practise fuelling", "h": "on long runs", "u": "Race day is not the time to find out." },
+      { "s": "NUMBER 2", "b": "Start small,", "h": "build up", "u": "Half a gel first. More each week." },
+      { "s": "NUMBER 3", "b": "Use what you'll", "h": "race with", "u": "Same gels, same drink, same timing." },
+      { "s": "NUMBER 4", "b": "Write down", "h": "what works", "u": "And what sent you looking for a bush." },
+      { "s": "YOUR TURN", "b": "Which race are you", "h": "training for?", "u": "Tell me below." }
+    ],
+    "caption": "Your legs aren't the only thing that needs training. Your stomach does too.\nPractise fuelling on long runs, start small, and use what you'll race with.\nWhich race are you training for? Tell me below.\n\n#guttraining #longrunfuel #marathonfuel #ultrarunning #PaceShark"
+  },
+  "carousel": {
+    "photo": "small group morning jog park",
+    "slides": [
+      { "kind": "cover", "small": "NO CLUB NEAR YOU?", "big": "How to start", "hl": "a run club", "sub": "6 steps. Two runners is enough to begin. Swipe." },
+      { "n": 1, "tag": "Time", "title": "PICK ONE SLOT", "head": "Same day, same time, every week.", "body": "People come back to a habit, not a schedule that changes." },
+      { "n": 2, "tag": "Route", "title": "KEEP IT EASY", "head": "Choose a loop everyone can finish.", "body": "A 5 km loop works for beginners and fast runners doing extra laps." },
+      { "n": 3, "tag": "Pace", "title": "NOBODY GETS DROPPED", "head": "Set regroup points along the way.", "body": "The fast runners wait. That's the rule that keeps people coming back." },
+      { "n": 4, "tag": "After", "title": "ADD THE COFFEE", "head": "Make the stop after the run part of it.", "body": "Half your members will come for the chat. That's fine." },
+      { "n": 5, "tag": "Grow", "title": "BRING A FRIEND", "head": "Ask every runner to bring one person.", "body": "Word of mouth beats any poster." },
+      { "n": 6, "tag": "Consistency", "title": "SHOW UP ANYWAY", "head": "Run even when it's just two of you.", "body": "Every big club started with a few people who kept turning up." },
+      { "kind": "cta", "small": "ALREADY IN ONE?", "big": "Add your club", "hl": "on PaceShark", "sub": "Run with a club? Add it on PaceShark: link in bio." }
+    ],
+    "caption": "No run club near you? Start one. Two runners is enough.\nOne fixed time, an easy loop, nobody gets dropped, and coffee after.\nRun with a club? Add it on PaceShark: link in bio.\n\n#startarunclub #runclub #socialrun #runningclub #PaceShark"
+  }
+}
