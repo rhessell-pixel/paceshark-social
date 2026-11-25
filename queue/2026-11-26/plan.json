@@ -36,5 +36,25 @@
       ],
       "caption": "post3.txt"
     }
+  ],
+  "photos": [
+    {
+      "post": "carousel",
+      "query": "runner walking break trail",
+      "photographer": "wr heustis",
+      "url": "https://www.pexels.com/photo/back-view-of-a-running-woman-15149237/"
+    },
+    {
+      "post": "reel1",
+      "query": "beginner runner jogging with friends",
+      "photographer": "JENNI AGUSTINA",
+      "url": "https://www.pexels.com/photo/group-of-people-jogging-on-city-street-40430151/"
+    },
+    {
+      "post": "reel2",
+      "query": "runner struggling uphill road",
+      "photographer": "Taiye Salawu",
+      "url": "https://www.pexels.com/photo/silhouette-of-man-running-at-dusk-outdoors-33491430/"
+    }
   ]
 }

@@ -59,6 +59,11 @@
   "query": "friends jogging together smiling",
   "url": "https://www.pexels.com/photo/two-men-doing-workout-13397842/"
  },
+ "15149237": {
+  "day": "2026-11-26",
+  "query": "runner walking break trail",
+  "url": "https://www.pexels.com/photo/back-view-of-a-running-woman-15149237/"
+ },
  "21517229": {
   "day": "2026-11-25",
   "query": "small group morning jog park",
@@ -68,6 +73,11 @@
   "day": "2026-11-20",
   "query": "tired runner sitting on curb",
   "url": "https://www.pexels.com/photo/athlete-resting-on-track-in-red-sportswear-32084032/"
+ },
+ "33491430": {
+  "day": "2026-11-26",
+  "query": "runner struggling uphill road",
+  "url": "https://www.pexels.com/photo/silhouette-of-man-running-at-dusk-outdoors-33491430/"
  },
  "34423108": {
   "day": "2026-11-22",
@@ -98,5 +108,10 @@
   "day": "2026-11-25",
   "query": "runner eating banana outdoors",
   "url": "https://www.pexels.com/photo/fresh-bananas-in-metal-tub-on-street-market-39969887/"
+ },
+ "40430151": {
+  "day": "2026-11-26",
+  "query": "beginner runner jogging with friends",
+  "url": "https://www.pexels.com/photo/group-of-people-jogging-on-city-street-40430151/"
  }
 }
