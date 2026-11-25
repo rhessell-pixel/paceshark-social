@@ -1,0 +1,40 @@
+{
+  "reel1": {
+    "photo": "beginner runner jogging with friends",
+    "frames": [
+      { "s": "THINK YOU'RE TOO SLOW FOR A RUN CLUB?", "b": "4 things your club", "h": "won't judge", "u": "Read this before you make another excuse." },
+      { "s": "NUMBER 1", "b": "Your", "h": "pace", "u": "Someone is always slower. Someone always waits." },
+      { "s": "NUMBER 2", "b": "Your", "h": "shoes", "u": "Old trainers have done plenty of club runs." },
+      { "s": "NUMBER 3", "b": "Your", "h": "watch", "u": "Nobody is checking your splits. Promise." },
+      { "s": "NUMBER 4", "b": "Walking", "h": "the hill", "u": "Half the club walks it. The other half lies." },
+      { "s": "WHAT THEY DO CARE ABOUT", "b": "That you", "h": "showed up", "u": "And whether you're staying for coffee." },
+      { "s": "KNOW SOMEONE WHO NEEDS THIS?", "b": "Send this to your", "h": "club's WhatsApp group" }
+    ],
+    "caption": "Too slow for a run club? Nobody there is checking.\nNot your pace, not your shoes, not your watch, and definitely not who walked the hill.\nSend this to your club's WhatsApp group.\n\n#runclub #beginnerrunner #slowrunner #runningclub #PaceShark"
+  },
+  "reel2": {
+    "photo": "runner struggling uphill road",
+    "frames": [
+      { "s": "MINDSET THURSDAY", "b": "The first 2 km", "h": "always lie", "u": "4 tricks for when a run feels hard." },
+      { "s": "NUMBER 1", "b": "Give it", "h": "10 minutes", "u": "Most runs feel better once you're warm." },
+      { "s": "NUMBER 2", "b": "Run to the", "h": "next lamppost", "u": "Then the next one. Then the next one." },
+      { "s": "NUMBER 3", "b": "Count", "h": "100 steps", "u": "Your brain can't moan and count at once." },
+      { "s": "NUMBER 4", "b": "Slow down,", "h": "don't stop", "u": "Easier pace, same run. Still counts." },
+      { "s": "DON'T LOSE THIS", "b": "Save this for your", "h": "next long run" }
+    ],
+    "caption": "The first 2 km of almost every run lie to you.\nGive it 10 minutes, run lamppost to lamppost, count your steps, and slow down before you stop.\nSave this for your next long run.\n\n#runningmindset #runningmotivation #mentaltoughness #longrun #PaceShark"
+  },
+  "carousel": {
+    "photo": "runner walking break trail",
+    "slides": [
+      { "kind": "cover", "small": "MYTH BUSTING", "big": "5 running myths", "hl": "you still believe", "sub": "Number 1 keeps a lot of runners at home. Swipe." },
+      { "n": 1, "tag": "Myth", "title": "WALKING IS CHEATING", "head": "Walk breaks are a tool, not a failure.", "body": "Plenty of runners finish marathons and ultras with planned walk breaks. Walking the hills is a strategy." },
+      { "n": 2, "tag": "Myth", "title": "REST DAYS ARE LAZY", "head": "You get fitter while you rest.", "body": "Training is the work. The rest day is when your body catches up and gets stronger." },
+      { "n": 3, "tag": "Myth", "title": "RUN EVERY DAY", "head": "More days is not always better.", "body": "Three or four good runs a week beat seven tired ones. Consistency over months is what counts." },
+      { "n": 4, "tag": "Myth", "title": "YOU MUST BE FAST", "head": "Races are full of runners like you.", "body": "Every start line has walkers, joggers and first-timers. Check the cut-off and go." },
+      { "n": 5, "tag": "Myth", "title": "ONE BAD RUN = UNFIT", "head": "A bad day is just a bad day.", "body": "Sleep, heat, work and stress all show up on your watch. Look at the month, not the morning." },
+      { "kind": "cta", "small": "YOUR TURN", "big": "Which race are you", "hl": "training for?", "sub": "Tell me below." }
+    ],
+    "caption": "Walking isn't cheating, and rest days aren't lazy.\nFive running myths that hold runners back, busted.\nWhich race are you training for? Tell me below.\n\n#runningmyths #mythbusting #runningtips #newrunner #PaceShark"
+  }
+}
