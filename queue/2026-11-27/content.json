@@ -1,0 +1,41 @@
+{
+  "reel1": {
+    "photo": "runner hot summer sweat",
+    "frames": [
+      { "s": "SUMMER KIT FRIDAY", "b": "4 places chafe", "h": "will find you", "u": "Nobody warns you about number 4." },
+      { "s": "NUMBER 1", "b": "Inner", "h": "thighs", "u": "Lube before you leave, not at km 12." },
+      { "s": "NUMBER 2", "b": "Under", "h": "the arms", "u": "Seams and sleeves rub. Fitted kit helps." },
+      { "s": "NUMBER 3", "b": "The", "h": "waistband", "u": "Belts, bras and shorts all leave a line." },
+      { "s": "NUMBER 4", "b": "The first", "h": "shower after", "u": "That's when you find out. Loudly." },
+      { "s": "THE GOLDEN RULE", "b": "Nothing new", "h": "on long runs", "u": "Test kit on short runs first." },
+      { "s": "DON'T LEARN IT THE HARD WAY", "b": "Save this for your", "h": "next long run" }
+    ],
+    "caption": "Chafe season is here, and it always finds you.\nLube first, wear kit that fits, and test anything new on short runs before long ones.\nSave this for your next long run.\n\n#chafing #summerrunning #runningkit #runnerproblems #PaceShark"
+  },
+  "reel2": {
+    "photo": "friends laughing phone group",
+    "frames": [
+      { "s": "EVERY RUN CLUB WHATSAPP GROUP", "b": "Has these", "h": "5 messages", "u": "Your group got at least three this week." },
+      { "s": "NUMBER 1", "b": "\"Who's running", "h": "tomorrow?\"", "u": "Sent at 21:47. Nobody answers till 5am." },
+      { "s": "NUMBER 2", "b": "\"Still on?", "h": "It's raining\"", "u": "Yes. It's always still on." },
+      { "s": "NUMBER 3", "b": "40 photos of", "h": "the same sunrise", "u": "All slightly blurry. All beautiful." },
+      { "s": "NUMBER 4", "b": "\"Anyone find", "h": "a car key?\"", "u": "Somebody always leaves something behind." },
+      { "s": "NUMBER 5", "b": "\"Sorry, slept", "h": "through it\"", "u": "Sent at 5:31. From the person who organised it." },
+      { "s": "YOU KNOW WHO NEEDS THIS", "b": "Send this to your", "h": "club's WhatsApp group" }
+    ],
+    "caption": "Every run club WhatsApp group has these five messages.\nThe 21:47 roll call, the rain check, and the 40 sunrise photos.\nSend this to your club's WhatsApp group.\n\n#runclub #runningclub #runningcommunity #runninghumor #PaceShark"
+  },
+  "carousel": {
+    "photo": "worn running shoes close up",
+    "slides": [
+      { "kind": "cover", "small": "KIT CHECK", "big": "5 signs your shoes", "hl": "are finished", "sub": "Number 5 is why most runners wait too long. Swipe." },
+      { "n": 1, "tag": "Sign", "title": "THE KILOMETRES", "head": "Most shoes are worn out somewhere around 500 to 800 km.", "body": "Lighter racing shoes often go sooner. Log your shoes in your watch app so you know." },
+      { "n": 2, "tag": "Sign", "title": "IT FEELS FLAT", "head": "The bounce has gone.", "body": "If your easy runs suddenly feel harder on your legs, the foam may have given up before the upper did." },
+      { "n": 3, "tag": "Sign", "title": "BALD SOLES", "head": "Smooth patches mean less grip.", "body": "Check the heel and forefoot. Worn rubber slips on wet roads and loose trail." },
+      { "n": 4, "tag": "Sign", "title": "NEW NIGGLES", "head": "Aches that weren't there last month.", "body": "Nothing else changed in your training? Your shoes might have. Ease off and see someone if it hangs around." },
+      { "n": 5, "tag": "Sign", "title": "YOU LOVE THEM", "head": "Favourite shoes get kept too long.", "body": "Buy the next pair early and run them in on short runs, so you're never stuck in a dead pair before a race." },
+      { "kind": "cta", "small": "YOUR TURN", "big": "Which race are you", "hl": "training for?", "sub": "Tell me below." }
+    ],
+    "caption": "Your favourite running shoes might be finished. Here's how to tell.\nCount the kilometres, feel for the bounce, and check the soles before your next race.\nWhich race are you training for? Tell me below.\n\n#runningshoes #runninggear #shoerotation #runningtips #PaceShark"
+  }
+}
