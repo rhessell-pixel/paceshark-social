@@ -36,5 +36,25 @@
       ],
       "caption": "post3.txt"
     }
+  ],
+  "photos": [
+    {
+      "post": "carousel",
+      "query": "worn running shoes close up",
+      "photographer": "Olumide Adekunle",
+      "url": "https://www.pexels.com/photo/close-up-of-worn-soccer-shoes-on-track-38468660/"
+    },
+    {
+      "post": "reel1",
+      "query": "runner hot summer sweat",
+      "photographer": "RUN 4 FFWPU",
+      "url": "https://www.pexels.com/photo/man-running-on-road-3039888/"
+    },
+    {
+      "post": "reel2",
+      "query": "friends laughing phone group",
+      "photographer": "ANTONI SHKRABA production",
+      "url": "https://www.pexels.com/photo/portrait-of-friends-posing-for-selfie-8910376/"
+    }
   ]
 }
