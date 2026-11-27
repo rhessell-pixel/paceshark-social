@@ -36,5 +36,25 @@
       ],
       "caption": "post3.txt"
     }
+  ],
+  "photos": [
+    {
+      "post": "carousel",
+      "query": "group runners road morning",
+      "photographer": "Stephen Leonardi",
+      "url": "https://www.pexels.com/photo/marathon-runners-racing-in-morning-fog-29694799/"
+    },
+    {
+      "post": "reel1",
+      "query": "tired runner road morning",
+      "photographer": "Christopher Welsch Leveroni",
+      "url": "https://www.pexels.com/photo/competitive-runner-in-marathon-event-41004484/"
+    },
+    {
+      "post": "reel2",
+      "query": "runner windy beach",
+      "photographer": "Tasha_WhiteGold",
+      "url": "https://www.pexels.com/photo/silhouette-of-runners-on-scenic-beach-at-sunrise-35015697/"
+    }
   ]
 }
