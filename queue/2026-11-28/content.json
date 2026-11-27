@@ -1,0 +1,40 @@
+{
+  "reel1": {
+    "photo": "tired runner road morning",
+    "frames": [
+      { "s": "SATURDAY LONG RUN", "b": "The 5 stages of", "h": "every long run", "u": "Stage 4 is where it gets personal." },
+      { "s": "STAGE 1", "b": "\"Why do I", "h": "do this?\"", "u": "Kilometre one. Legs made of wood." },
+      { "s": "STAGE 2", "b": "\"Actually, I", "h": "feel amazing\"", "u": "Kilometre six. Suddenly you could run forever." },
+      { "s": "STAGE 3", "b": "Planning", "h": "breakfast", "u": "In detail. Toast, eggs, then more toast." },
+      { "s": "STAGE 4", "b": "Every km is", "h": "two km long", "u": "The last three. Nobody can explain it." },
+      { "s": "STAGE 5", "b": "\"Same time", "h": "next week?\"", "u": "Sent from the couch, ten minutes later." },
+      { "s": "YOUR TURN", "b": "Which race are you", "h": "training for?", "u": "Tell me below." }
+    ],
+    "caption": "Every long run goes through the same five stages.\nWood legs, false hope, breakfast plans, the longest three kilometres on earth, then signing up for more.\nWhich race are you training for? Tell me below.\n\n#longrun #saturdayrun #runnerlife #runninghumor #PaceShark"
+  },
+  "reel2": {
+    "photo": "runner windy beach",
+    "frames": [
+      { "s": "WINDY WEEKEND?", "b": "Stop fighting", "h": "the headwind", "u": "You won't win. Run smarter instead." },
+      { "s": "NUMBER 1", "b": "Run by effort,", "h": "not pace", "u": "Slower into the wind is normal. Same effort, honest work." },
+      { "s": "NUMBER 2", "b": "Start into", "h": "the wind", "u": "Then it pushes you home when your legs are tired." },
+      { "s": "NUMBER 3", "b": "Shorten", "h": "your stride", "u": "Quick, small steps and a slight lean. Stay low." },
+      { "s": "NUMBER 4", "b": "Drink more", "h": "than you think", "u": "Wind dries you out before you feel thirsty." },
+      { "s": "BEFORE YOU HEAD OUT", "b": "Save this for your", "h": "next long run" }
+    ],
+    "caption": "The wind always wins. Your job is to run smart anyway.\nRun by effort, start into it, and let it blow you home.\nSave this for your next long run.\n\n#runninginthewind #runningtips #weekendrun #roadrunning #PaceShark"
+  },
+  "carousel": {
+    "photo": "group runners road morning",
+    "slides": [
+      { "kind": "cover", "small": "RUN CLUB SATURDAYS", "big": "The club long run", "hl": "in 5 moments", "sub": "Your club does number 4 every single week. Swipe." },
+      { "n": 1, "tag": "Moment", "title": "THE MEETING POINT", "head": "Start time is 6:00. Leaving time is 6:12.", "body": "Someone is always still parking. Someone is always tying a shoe." },
+      { "n": 2, "tag": "Moment", "title": "THE EASY PACE", "head": "\"Nice and easy today, everyone.\"", "body": "Three kilometres later the front group is doing tempo and nobody admits it." },
+      { "n": 3, "tag": "Moment", "title": "THE REGROUP", "head": "Waiting at the top of the hill.", "body": "The best part of a club run: nobody gets left behind, and everybody catches their breath." },
+      { "n": 4, "tag": "Moment", "title": "THE EXTRA LOOP", "head": "Someone runs laps of the car park.", "body": "Their watch says 19.6 km. It must say 20. You understand completely." },
+      { "n": 5, "tag": "Moment", "title": "THE BIG PROMISE", "head": "\"Let's all do a race together.\"", "body": "Said every Saturday. One week it actually happens, and that's the best race of the year." },
+      { "kind": "cta", "small": "YOU KNOW THE PEOPLE", "big": "Tag your", "hl": "run club", "sub": "The ones who wait for you at the top of the hill." }
+    ],
+    "caption": "The club long run happens in the same five moments, every Saturday.\nLate start, fake easy pace, the regroup, the car park laps, and the race everyone promises to do together.\nTag your run club.\n\n#runclub #clublongrun #runningfriends #weekendlongrun #PaceShark"
+  }
+}
