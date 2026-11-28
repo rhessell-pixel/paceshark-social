@@ -1,0 +1,39 @@
+{
+  "reel1": {
+    "photo": "runner exhausted finish road",
+    "frames": [
+      { "s": "WHY YOUR RACE FELL APART", "b": "You didn't run out of fitness.", "h": "You started too fast.", "u": "4 steps to pace any race." },
+      { "s": "NUMBER 1", "b": "The first km should feel", "h": "too easy", "u": "If it feels right, it's too fast." },
+      { "s": "NUMBER 2", "b": "Settle in the", "h": "middle", "u": "Find a rhythm you could hold for twice as long." },
+      { "s": "NUMBER 3", "b": "Hills by effort,", "h": "not pace", "u": "Lose 10 seconds up. Get them back down the other side." },
+      { "s": "NUMBER 4", "b": "Race the", "h": "last 2 km", "u": "That's where the people who started fast come back to you." },
+      { "s": "YOUR TURN", "b": "Which race are you", "h": "training for?", "u": "Tell me below." }
+    ],
+    "caption": "You didn't run out of fitness. You started too fast.\nEasy first km, settle in, run the hills by effort, and race the last 2 km.\nWhich race are you training for? Tell me below.\n\n#racepacing #racedaytips #10ktraining #runningcoach #PaceShark"
+  },
+  "reel2": {
+    "photo": "friends running laughing park",
+    "frames": [
+      { "s": "CLUB VS CLUB", "b": "Every run club thinks", "h": "it's the best one", "u": "3 things every club claims." },
+      { "s": "NUMBER 1", "b": "\"Our hill is", "h": "harder than yours\"", "u": "Every club has The Hill. Every club's is the worst." },
+      { "s": "NUMBER 2", "b": "\"Our start is", "h": "earlier\"", "u": "5:30? Cute. Some clubs meet in the dark on purpose." },
+      { "s": "NUMBER 3", "b": "\"Our coffee stop", "h": "is the best\"", "u": "This one is never up for debate." },
+      { "s": "SETTLE IT", "b": "PaceShark has a", "h": "club leaderboard", "u": "Add your club. Let the kilometres do the talking." },
+      { "s": "IS YOUR CLUB ON IT?", "b": "Run with a club?", "h": "Add it on PaceShark", "u": "Link in bio." }
+    ],
+    "caption": "Every run club thinks it's the best one. Time to settle it.\nThe hardest hill, the earliest start, the best coffee stop. The club leaderboard decides the rest.\nRun with a club? Add it on PaceShark: link in bio.\n\n#runclub #clubrunning #runningcommunity #sundayrunday #PaceShark"
+  },
+  "carousel": {
+    "photo": "running shoes calendar coffee",
+    "slides": [
+      { "kind": "cover", "small": "SUNDAY, 5 MINUTES", "big": "Plan your running week", "hl": "before Monday", "sub": "5 steps. Do it with your coffee. Swipe." },
+      { "n": 1, "tag": "Step", "title": "LONG RUN FIRST", "head": "Pick the day for your long run.", "body": "It's the run that matters most. Put it where you have time and sleep the night before." },
+      { "n": 2, "tag": "Step", "title": "ONE HARD SESSION", "head": "One quality session. Maybe two.", "body": "Intervals, a tempo or your club's Tuesday session. Keep them away from the long run." },
+      { "n": 3, "tag": "Step", "title": "REST DAYS", "head": "Write the rest days in ink.", "body": "Rest is where the training sinks in. Don't let it be whatever's left over." },
+      { "n": 4, "tag": "Step", "title": "EASY EVERYTHING ELSE", "head": "Every other run is easy.", "body": "Chatting pace. Easy days are what let the hard days actually be hard." },
+      { "n": 5, "tag": "Step", "title": "A BACKUP SLOT", "head": "Keep one spare slot.", "body": "Life happens. If a run gets bumped, move it there instead of cramming two into one day." },
+      { "kind": "cta", "small": "SUNDAY SORTED", "big": "Save this for", "hl": "every Sunday", "sub": "Five minutes now saves a messy week later." }
+    ],
+    "caption": "Five minutes on a Sunday saves a messy running week.\nLong run first, one hard session, rest days in ink, easy everything else, and a spare slot for when life happens.\nSave this for next Sunday.\n\n#runningplan #trainingweek #sundayplanning #runningtips #PaceShark"
+  }
+}
