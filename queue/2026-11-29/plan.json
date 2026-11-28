@@ -36,5 +36,25 @@
       ],
       "caption": "post3.txt"
     }
+  ],
+  "photos": [
+    {
+      "post": "carousel",
+      "query": "running shoes calendar coffee",
+      "photographer": "Han",
+      "url": "https://www.pexels.com/photo/notebook-near-laptop-and-coffee-19935031/"
+    },
+    {
+      "post": "reel1",
+      "query": "runner exhausted finish road",
+      "photographer": "Eddson Lens",
+      "url": "https://www.pexels.com/photo/female-marathon-runner-with-national-flag-joyfully-finishing-29400392/"
+    },
+    {
+      "post": "reel2",
+      "query": "friends running laughing park",
+      "photographer": "Josiah Matthew",
+      "url": "https://www.pexels.com/photo/women-laughing-together-12896324/"
+    }
   ]
 }
